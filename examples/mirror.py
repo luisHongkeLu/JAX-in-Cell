@@ -19,8 +19,6 @@ started = datetime.now()
 output = block_until_ready(simulation(input_parameters, **solver_parameters))
 print("Simulation done, elapsed:", datetime.now()-started)
 
-output = block_until_ready(simulation(input_parameters, **solver_parameters))
-
 # Post-process: segregate ions/electrons, compute energies, compute FFT
 diagnostics(output)
 

@@ -125,8 +125,8 @@ seed_position = 10
 #   argument tree and JAX will error. Your driver should pre-load the NPZ and
 #   replace this table with {"B" = (G,3) array}. For now, leave a placeholder.
 # ------------------------------
-[external_magnetic_field]
-path = "/Users/luis_lu/Desktop/UW-Madison/UWPlasma/aaron/JAX-in-Cell/external_fields/external_B_mirror.npz"
+# [external_magnetic_field]
+# path = "/Users/luis_lu/Desktop/UW-Madison/UWPlasma/aaron/JAX-in-Cell/external_fields/external_B_mirror.npz"
 
 [solver_parameters]
 time_evolution_algorithm = 0
